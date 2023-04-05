@@ -1,5 +1,9 @@
 export const pagesRoutes = [
-  ["v-8daa1a0e","/",{"y":"h","t":"主页","i":"home","title":"主页"},["/index.html","/README.md"]],
+  ["v-79fdd481","/home.html",{"y":"a","t":"欢迎来到","title":"欢迎来到"},["/home","/home.md"]],
+  ["v-8daa1a0e","/",{"y":"h","t":"程序员独苏","i":"home","title":"程序员独苏"},["/index.html","/README.md"]],
+  ["v-437c82eb","/author/",{"y":"a","t":"个人介绍","title":"个人介绍"},["/author/index.html","/author/README.md"]],
+  ["v-5d859ad6","/books/cs-basics.html",{"y":"a","t":"计算机基础必读经典书籍","i":"computer","title":"计算机基础必读经典书籍"},["/books/cs-basics","/books/cs-basics.md"]],
+  ["v-772846fe","/books/",{"y":"a","t":"技术书籍精选","title":"技术书籍精选"},["/books/index.html","/books/README.md"]],
   ["v-86f66e9e","/database/mysql-basic.html",{"y":"a","t":""},["/database/mysql-basic","/database/mysql-basic.md"]],
   ["v-e7dbd356","/database/mysql-execution-plan.html",{"y":"a","t":""},["/database/mysql-execution-plan","/database/mysql-execution-plan.md"]],
   ["v-48187af2","/database/mysql.html",{"y":"a","t":""},["/database/mysql","/database/mysql.md"]],
@@ -22,9 +26,5 @@ export const pagesRoutes = [
   ["v-4db0594a","/redis/redis-basic.html",{"y":"a","t":""},["/redis/redis-basic","/redis/redis-basic.md"]],
   ["v-42feb24b","/redis/redis.html",{"y":"a","t":""},["/redis/redis","/redis/redis.md"]],
   ["v-3706649a","/404.html",{"y":"p","t":""},["/404"]],
-  ["v-2e25198a","/database/",{"y":"p","t":"Database","title":"Database"},["/database/index.html"]],
-  ["v-7d72c4ac","/framework/",{"y":"p","t":"Framework","title":"Framework"},["/framework/index.html"]],
-  ["v-14c69af4","/java/",{"y":"p","t":"Java","title":"Java"},["/java/index.html"]],
-  ["v-1c4f78fd","/message-queue/",{"y":"p","t":"Message Queue","title":"Message Queue"},["/message-queue/index.html"]],
-  ["v-dc384366","/redis/",{"y":"p","t":"Redis","title":"Redis"},["/redis/index.html"]],
+  ["v-1feb30f7","/student.html",{"y":"a","t":"初学者建议","title":"初学者建议"},["/student","/student.md"]],
 ]

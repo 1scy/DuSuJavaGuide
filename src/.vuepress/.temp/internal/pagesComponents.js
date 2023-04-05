@@ -1,8 +1,16 @@
 import { defineAsyncComponent } from 'vue'
 
 export const pagesComponents = {
+  // path: /home.html
+  "v-79fdd481": defineAsyncComponent(() => import(/* webpackChunkName: "v-79fdd481" */"E:/documen/src/.vuepress/.temp/pages/home.html.vue")),
   // path: /
   "v-8daa1a0e": defineAsyncComponent(() => import(/* webpackChunkName: "v-8daa1a0e" */"E:/documen/src/.vuepress/.temp/pages/index.html.vue")),
+  // path: /author/
+  "v-437c82eb": defineAsyncComponent(() => import(/* webpackChunkName: "v-437c82eb" */"E:/documen/src/.vuepress/.temp/pages/author/index.html.vue")),
+  // path: /books/cs-basics.html
+  "v-5d859ad6": defineAsyncComponent(() => import(/* webpackChunkName: "v-5d859ad6" */"E:/documen/src/.vuepress/.temp/pages/books/cs-basics.html.vue")),
+  // path: /books/
+  "v-772846fe": defineAsyncComponent(() => import(/* webpackChunkName: "v-772846fe" */"E:/documen/src/.vuepress/.temp/pages/books/index.html.vue")),
   // path: /database/mysql-basic.html
   "v-86f66e9e": defineAsyncComponent(() => import(/* webpackChunkName: "v-86f66e9e" */"E:/documen/src/.vuepress/.temp/pages/database/mysql-basic.html.vue")),
   // path: /database/mysql-execution-plan.html
@@ -47,14 +55,6 @@ export const pagesComponents = {
   "v-42feb24b": defineAsyncComponent(() => import(/* webpackChunkName: "v-42feb24b" */"E:/documen/src/.vuepress/.temp/pages/redis/redis.html.vue")),
   // path: /404.html
   "v-3706649a": defineAsyncComponent(() => import(/* webpackChunkName: "v-3706649a" */"E:/documen/src/.vuepress/.temp/pages/404.html.vue")),
-  // path: /database/
-  "v-2e25198a": defineAsyncComponent(() => import(/* webpackChunkName: "v-2e25198a" */"E:/documen/src/.vuepress/.temp/pages/database/index.html.vue")),
-  // path: /framework/
-  "v-7d72c4ac": defineAsyncComponent(() => import(/* webpackChunkName: "v-7d72c4ac" */"E:/documen/src/.vuepress/.temp/pages/framework/index.html.vue")),
-  // path: /java/
-  "v-14c69af4": defineAsyncComponent(() => import(/* webpackChunkName: "v-14c69af4" */"E:/documen/src/.vuepress/.temp/pages/java/index.html.vue")),
-  // path: /message-queue/
-  "v-1c4f78fd": defineAsyncComponent(() => import(/* webpackChunkName: "v-1c4f78fd" */"E:/documen/src/.vuepress/.temp/pages/message-queue/index.html.vue")),
-  // path: /redis/
-  "v-dc384366": defineAsyncComponent(() => import(/* webpackChunkName: "v-dc384366" */"E:/documen/src/.vuepress/.temp/pages/redis/index.html.vue")),
+  // path: /student.html
+  "v-1feb30f7": defineAsyncComponent(() => import(/* webpackChunkName: "v-1feb30f7" */"E:/documen/src/.vuepress/.temp/pages/student.html.vue")),
 }

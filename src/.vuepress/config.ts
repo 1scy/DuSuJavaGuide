@@ -9,7 +9,7 @@ export default defineUserConfig({
   locales: {
     "/": {
       lang: "zh-CN",
-      title: "java学习指南&-> 程序员独苏",
+      title: "Java学习指南 -> 程序员独苏",
       description: "程序员独苏 的学习指南文档",
     },
   },
@@ -18,6 +18,7 @@ export default defineUserConfig({
   plugins: [
     autoCatalogPlugin({
       //插件选项
+      exclude: ["/java/","/framework/","/message-queue/","/database/","/redis/",],
     }),
     searchPlugin({
        // 排除首页

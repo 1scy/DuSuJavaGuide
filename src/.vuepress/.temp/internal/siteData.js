@@ -1,4 +1,4 @@
-export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"java学习指南&-> 程序员独苏\",\"description\":\"程序员独苏 的学习指南文档\"}}}")
+export const siteData = JSON.parse("{\"base\":\"/\",\"lang\":\"en-US\",\"title\":\"\",\"description\":\"\",\"head\":[],\"locales\":{\"/\":{\"lang\":\"zh-CN\",\"title\":\"Java学习指南 -> 程序员独苏\",\"description\":\"程序员独苏 的学习指南文档\"}}}")
 
 if (import.meta.webpackHot) {
   import.meta.webpackHot.accept()

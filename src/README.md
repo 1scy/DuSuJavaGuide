@@ -1,24 +1,24 @@
 ---
 home: true
 icon: home
-title: 主页
+title: 程序员独苏
 heroImage: /logo.svg
 heroText: 程序员独苏
 tagline: 适合大家提升技术，不愿拿低工资的人群
 actions:
   - text: 开始阅读 
-    link: /
+    link: /home
     type: primary
 
   - text: 知识星球 💡
-    link: /
+    link: /author/
     type: primary
 
 features:
   - title: 初学者建议
     icon: study
     details: 个人给初学者的建议，可能不适合全部人，仅供参考
-    link: 
+    link: /student
 
 
 

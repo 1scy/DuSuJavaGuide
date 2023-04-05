@@ -1,5 +1,41 @@
 export const searchIndex = [
   {
+    "title": "欢迎来到",
+    "headers": [],
+    "path": "/home.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "个人介绍",
+    "headers": [
+      {
+        "level": 2,
+        "title": "我是什么时候毕业的？",
+        "slug": "我是什么时候毕业的",
+        "link": "#我是什么时候毕业的",
+        "children": []
+      }
+    ],
+    "path": "/author/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "计算机基础必读经典书籍",
+    "headers": [],
+    "path": "/books/cs-basics.html",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
+    "title": "技术书籍精选",
+    "headers": [],
+    "path": "/books/",
+    "pathLocale": "/",
+    "extraFields": []
+  },
+  {
     "title": "",
     "headers": [],
     "path": "/database/mysql-basic.html",
@@ -82,16 +118,37 @@ export const searchIndex = [
     "headers": [
       {
         "level": 2,
-        "title": "Java的特点",
-        "slug": "java的特点",
-        "link": "#java的特点",
+        "title": "Java中的四种访问修饰符是什么？它们分别表示什么含义？",
+        "slug": "java中的四种访问修饰符是什么-它们分别表示什么含义",
+        "link": "#java中的四种访问修饰符是什么-它们分别表示什么含义",
         "children": []
       },
       {
         "level": 2,
-        "title": "Java是如何实现跨平台的？",
-        "slug": "java是如何实现跨平台的",
-        "link": "#java是如何实现跨平台的",
+        "title": "什么是Java中的多态性？它有哪些实现方式？",
+        "slug": "什么是java中的多态性-它有哪些实现方式",
+        "link": "#什么是java中的多态性-它有哪些实现方式",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Java中的final关键字有哪些用途？",
+        "slug": "java中的final关键字有哪些用途",
+        "link": "#java中的final关键字有哪些用途",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "Java中的异常处理机制是什么？有哪些常见的异常？",
+        "slug": "java中的异常处理机制是什么-有哪些常见的异常",
+        "link": "#java中的异常处理机制是什么-有哪些常见的异常",
+        "children": []
+      },
+      {
+        "level": 2,
+        "title": "什么是Java中的线程？如何创建一个线程？",
+        "slug": "什么是java中的线程-如何创建一个线程",
+        "link": "#什么是java中的线程-如何创建一个线程",
         "children": []
       }
     ],
@@ -173,41 +230,6 @@ export const searchIndex = [
     "title": "",
     "headers": [],
     "path": "/404.html",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Database",
-    "headers": [],
-    "path": "/database/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Framework",
-    "headers": [],
-    "path": "/framework/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Java",
-    "headers": [],
-    "path": "/java/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Message Queue",
-    "headers": [],
-    "path": "/message-queue/",
-    "pathLocale": "/",
-    "extraFields": []
-  },
-  {
-    "title": "Redis",
-    "headers": [],
-    "path": "/redis/",
     "pathLocale": "/",
     "extraFields": []
   }
